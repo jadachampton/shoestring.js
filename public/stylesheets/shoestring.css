@@ -504,3 +504,44 @@ body h1 {
   text-align: left;
   vertical-align: top;
   width: 30%; }
+
+.section-colored {
+  padding: 10px 0px 100 0px;
+  background-color: red; }
+  .section-colored .img-responsive {
+    width: 100%;
+    height: auto;
+    display: inline-block; }
+  .section-colored .col-lg-6 {
+    display: inline-block;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    width: 49%; }
+
+.section-colored.text-center {
+  padding: 10px 0px 200px 0px;
+  background-color: pink; }
+  .section-colored.text-center .col-lg-6 {
+    display: inline-block;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    width: 30%; }
+
+.section {
+  padding: 10px 0px 100 0px;
+  background-color: pink; }
+  .section .img-responsive {
+    width: 100%;
+    height: auto;
+    display: inline-block; }
+  .section .col-lg-6 {
+    display: inline-block;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    width: 49%; }
+
+img {
+  width: 100%; }
