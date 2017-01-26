@@ -483,14 +483,14 @@ body h1 {
   margin-right: auto; }
 
 .container {
+  clear: both;
   margin-left: auto;
-  margin-right: auto;
-  clear: both; }
+  margin-right: auto; }
 
 .row {
+  clear: both;
   margin-left: auto;
   margin-right: auto;
-  clear: both;
   padding: 10px;
   text-align: center; }
 
@@ -499,9 +499,8 @@ body h1 {
   width: 100%; }
 
 .col-lg-4 {
-  text-align: left;
-  padding: 10px;
   display: inline-block;
-  width: 30%;
-  border: 1px solid black;
-  vertical-align: top; }
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+  width: 30%; }
